@@ -1,0 +1,17 @@
+.na{
+    margin-right: 20px;
+}
+.bt{
+    display: flex;
+    justify-content: flex-end;
+}
+.imgEventos{
+    width: 75px;
+    height: 75px;
+}
+.nomeEvento{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
