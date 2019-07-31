@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.section{
+    min-height: 10vh;
+    margin: 90px;
+}
+
+section img{
+    width: 1195px;
+    height: 540px;
+}
+
+.local{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.promotor{
+    border-top: 1px solid black; 
+    font-size: 1rem;
+}
+
+h3{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 5px;
+    font-size: 1.67em;
+}
+
+.prom-contacto{
+    display: flex;
+    justify-content: space-around;
+}
