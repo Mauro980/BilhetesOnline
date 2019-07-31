@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.section{
+    min-height: 30vh;
+}
+
+.mini-header{
+    align-items: center;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    transition: 0.7 all;
+}
+
+.cards-meus-eventos{
+    padding-top: 10px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill,330px);
+}
+
+
+.buttons-eventos{
+    padding: 10px 30px;
+    font-size: .9rem;
+    color: black;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border:2px solid #e7e7e7;
+    border-radius: 30px;
+}
+
+.buttons-eventos:hover{
+    background-color: grey;
+    color: white;
+}
+
+figcaption{
+    display: block;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 55px;
+}
+
+figcaption a{
+    padding: 0;
+}
+
+.imagens{
+    width: 250px;
+    height: 350px;
+}
+
+.eventos-cards{
+    box-shadow: 0 4px 8px 0 rgba(207, 206, 206, 0.322);
+    transition: 0.3s;
+    border-radius: 5px;
+    
+}
+
+.eventos-cards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
